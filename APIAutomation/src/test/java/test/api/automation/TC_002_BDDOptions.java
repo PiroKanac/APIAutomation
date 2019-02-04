@@ -9,16 +9,20 @@ import com.jayway.restassured.response.Response;
 
 public class TC_002_BDDOptions {
 
+	
+	
 	@Test
 	public void tc_001_getMethod_validation() 
 	{
+		
+	/*	//***********Jump into Rest API Automation using Rest-Assured***********
 			
 		given().param("t", "Spiderman")
 			   .param("y", "")
 			   .param("plot", "short")
 			   .param("r", "json")
 		.when().get("http://www.omdbapi.com/")
-		.then().statusCode(401);
+		.then().statusCode(401);                        */
 	
 	}
 }
